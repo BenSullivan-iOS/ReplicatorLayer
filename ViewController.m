@@ -26,7 +26,7 @@
   
   [super viewDidAppear:animated];
   
-//  self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"ad.png"]];
+  self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"ad.png"]];
   
   CGPoint centralPoint = CGPointMake(self.view.bounds.size.width/2.,
                                      self.view.bounds.size.height/2.);
